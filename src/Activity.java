@@ -12,4 +12,8 @@ public class Activity {
 
     public void addGoal(String name, String description, Date deadline, Customer customer) {
     }
+
+    public Entry addActivityEntry(boolean visible) {
+        return null;
+    }
 }
