@@ -1,8 +1,12 @@
+package Model;
+
 import java.util.Date;
 
 /**
  * Created by Arthur on 26/02/2016.
  */
+
+
 public class Activity {
     private String nameActivity;
     private Date date;
@@ -11,5 +15,9 @@ public class Activity {
     private ActivityCategory categoryActivity;
 
     public void addGoal(String name, String description, Date deadline, Customer customer) {
+    }
+
+    public Entry addActivityEntry(boolean visible) {
+        return null;
     }
 }

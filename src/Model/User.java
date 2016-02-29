@@ -1,6 +1,8 @@
 /**
  * Created by Arthur on 26/02/2016.
  */
+package Model;
+
 public abstract class User {
     public String userID;
     public String password;

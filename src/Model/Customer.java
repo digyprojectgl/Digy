@@ -1,9 +1,12 @@
+package Model;
+
 import java.util.Collection;
 import java.util.Date;
 
 /**
  * Created by Arthur on 26/02/2016.
  */
+
 class Customer extends User {
 
     @Override

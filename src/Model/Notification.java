@@ -1,6 +1,8 @@
 /**
  * Created by Arthur on 26/02/2016.
  */
+package Model;
+
 public class Notification {
     private String content;
     private Object type;
