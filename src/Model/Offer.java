@@ -6,6 +6,7 @@ package Model;
 public class Offer implements Purchasable {
     private double price;
     private int quantityAvailable;
+    private Seller seller;
 
     @Override
     public double getPrice() {

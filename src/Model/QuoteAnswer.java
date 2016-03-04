@@ -4,6 +4,11 @@
 package Model;
 
 public class QuoteAnswer implements Purchasable {
+    private double price;
+    private int quantityAvailable;
+    private QuoteRequest requestAnswered;
+    private Seller seller;
+
     @Override
     public double getPrice() {
         return 0;
